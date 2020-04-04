@@ -1,0 +1,14 @@
+*.pyc
+src/__pycache__/DataLoader.cpython-36.pyc
+src/__pycache__/Model.cpython-36.pyc
+src/__pycache__/SamplePreprocessor.cpython-36.pyc
+src/__pycache__/SpellChecker.cpython-36.pyc 
+model/accuracy.txt
+model/charList.txt
+model/checkpoint
+model/pretrained_model.zip
+model/pretrained_model/
+model/snapshot-4.data-00000-of-00001
+model/snapshot-4.index
+model/snapshot-4.meta
+src/logs/*

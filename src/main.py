@@ -138,7 +138,7 @@ def infer(model, fnImg):
     recognized = model.inferBatch(batch)  # recognize text
 
     print("Without Correction", recognized[0])
-    print("With Correction", correct_sentence(recognized[0]))
+    print("With Correction using autocorrect", correct_sentence(recognized[0]))
 
     return recognized[0]
 
