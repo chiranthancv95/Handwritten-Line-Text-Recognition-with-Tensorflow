@@ -15,7 +15,9 @@ $cd data/
 #### Pretrained Model for IAM dataset
 ```markdown
 $ cd model/
-Download pretrained model from (https://drive.google.com/open?id=1XUYqrHP3bCxxiskMpGNr06xSYO5bAg9L)
+```
+Download [pretrained model](https://drive.google.com/open?id=1XUYqrHP3bCxxiskMpGNr06xSYO5bAg9L) here.
+```markdown
 $ unzip pretrained_model.zip
 ```
 Currently, getting Validation character error rate of saved model: 17.395323%
