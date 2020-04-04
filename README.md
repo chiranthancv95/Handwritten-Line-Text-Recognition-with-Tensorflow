@@ -10,6 +10,12 @@
 * Place lines folder and lines.txt in the data/ directory.
 * All set.(Only if you wish to continue with default hyperparameters)
 
+#### Pretrained Model for IAM dataset
+```markdown
+$ cd model/
+Download pretrained model from (https://drive.google.com/open?id=1XUYqrHP3bCxxiskMpGNr06xSYO5bAg9L)
+$ unzip pretrained_model.zip
+```
 
 
 To Train the model from scratch
