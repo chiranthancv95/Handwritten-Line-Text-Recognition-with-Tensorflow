@@ -18,21 +18,21 @@ $ unzip pretrained_model.zip
 ```
 
 
-To Train the model from scratch
+#### To Train the model from scratch
 ```markdown
 $ cd src/
 $ python main.py --train
 
 ```
-To validate the model
+#### To validate the model
 ```markdown
 $ cd src/
 $ python main.py --validate
 ```
-To Get Prediction or to run a Demo
+#### To Get Prediction or to run a Demo
 ```markdown
 $ cd src/
-$ python scan.py --image <infer_image_path>
+$ python process.py --image <infer_image_path>
 Example - python process.py --image "../data/test.png"
 Note - Run "process.py" only if using with a custom image.
 $ python main.py --infer <processed_image_path>
